@@ -1,7 +1,7 @@
 
 
 // const socketa = io("http://localhost:3000/", { transports: ["websocket"] })
-const socket = io("http://localhost:3000/", { transports: ["websocket"] })
+const socket = io("http://localhost:4000/", { transports: ["websocket"] })
 
  let username = prompt("Enter your name", "a");
 
