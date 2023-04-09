@@ -33,7 +33,7 @@ app.use("/chess",express.static('public'));
 
 socketserver(io);
 
-var port = process.env.PORT || 3000;
+var port = 4000;
 
 httpserver.listen(port, async function () {
 
